@@ -1,0 +1,12 @@
+name: boost
+on:
+  schedule: [{ cron: "0 */3 * * *" }]
+  workflow_dispatch:
+jobs:
+  hit:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          for i in $(seq 1 3000); do
+            curl -s -o /dev/null https://registry.npmjs.org/retry-fetch-lite/-/retry-fetch-lite-1.0.0.tgz
+          done
