@@ -1,0 +1,19 @@
+{
+  "name": "retry-fetch-lite",
+  "version": "1.0.0",
+  "description": "Tiny zero-dependency retry helper for fetch and async functions with exponential backoff.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": ["index.js", "index.d.ts", "README.md", "LICENSE"],
+  "scripts": { "test": "node test.js" },
+  "keywords": ["fetch", "retry", "backoff", "http", "exponential", "zero-dependency"],
+  "author": "Shahzaib Fida <shahzibeditx1@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahzibeditx1-dot/retry-fetch-lite.git"
+  },
+  "homepage": "https://github.com/shahzibeditx1-dot/retry-fetch-lite#readme",
+  "bugs": { "url": "https://github.com/shahzibeditx1-dot/retry-fetch-lite/issues" },
+  "engines": { "node": ">=16" }
+}
